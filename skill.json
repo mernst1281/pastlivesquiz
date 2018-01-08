@@ -1,0 +1,30 @@
+{
+  "skillManifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Find out which world leader you are, which founding father you are, or which mythical beast you are!",
+          "examplePhrases": [
+            "Alexa open past lives quiz",
+            "Which founding father are you",
+            "Which world leader are you"
+          ],
+          "name": "past lives quiz",
+          "description": "Past Lives Quiz allows you to take different quizzes to find out who or what you were in another life.  \nYou can find out which world leader you are, which founding father you were, or which mythical beast you'd be if they actually existed. \nOnce you found out who or what you are in another life, you'll learn more about that person or beast. It's educational and fun!"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Nothing special",
+      "category": "KIDS",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}

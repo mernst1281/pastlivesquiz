@@ -1,0 +1,19 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.77bcdb88-b0e9-4a3a-9e45-cfea540bc9b5",
+      "was_cloned": false,
+      "merge": {
+        "skillManifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "ask-custom-personalitypicker-default"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

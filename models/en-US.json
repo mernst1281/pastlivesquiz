@@ -1,0 +1,85 @@
+{
+    "interactionModel":{
+        "languageModel":{
+            "invocationName":"past lives quiz",
+            "types" : [],
+            "intents":[
+                {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+                },
+                {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+                },
+                {
+                  "name": "AMAZON.NoIntent",
+                  "samples": []
+                },
+                {
+                  "name": "AMAZON.ResumeIntent",
+                  "samples": []
+                },
+                {
+                  "name": "AMAZON.StartOverIntent",
+                  "samples": []
+                },
+                {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+                },
+                {
+                  "name": "AMAZON.YesIntent",
+                  "samples": []
+                },
+                {
+                    "name":"BeastIntent",
+                    "samples":[
+                        "mythical beast",
+                        "beast",
+                        "which mythical beast are you",
+                        "which mythical beast am i"
+                    ]
+                },
+                {
+                    "name":"FoundingFatherIntent",
+                    "samples":[
+                        "founding father",
+                        "father",
+                        "founding",
+                        "which founding father are you",
+                        "which founding father am i"
+                    ]
+                },
+                {
+                    "name":"NewQuizIntent",
+                    "samples":[
+                        "new quiz",
+                        "new game"
+                    ]
+                },
+                {
+                    "name":"GuessIntent",
+                    "slots":[
+                        {
+                            "name":"number",
+                            "type":"AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples":[
+                        "{number}"
+                    ]
+                },
+                {
+                    "name":"WorldLeaderIntent",
+                    "samples":[
+                        "world leader",
+                        "leader",
+                        "which world leader are you",
+                        "which world leader am i"
+                    ]
+                }
+            ]
+        }
+    }
+}
